@@ -6,7 +6,7 @@ i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client. i2p (Invi
 
 More info - https://i2pd.readthedocs.io/en/latest/
 
-### Prerequisites
+### Requirements
 
 * server with docker
 * ~128 Mb RAM, ~200 Mb disk space 
