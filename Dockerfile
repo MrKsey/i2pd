@@ -3,7 +3,7 @@
 #
 FROM debian:stable-slim
 MAINTAINER Bob <kcey@mail.ru>
-ENV REFRESHED_AT 2017–11–20
+ENV REFRESHED_AT 2017–11–21
 
 ENV I2PD_URL=https://api.github.com/repos/PurpleI2P/i2pd/releases \
 I2PD_RELEASE="latest" \
