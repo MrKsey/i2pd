@@ -11,7 +11,7 @@ DEBIAN_CODENAME="*"
 
 RUN export DEBIAN_FRONTEND=noninteractive HISTSIZE=200 HISEFILESIZE=0 \
 && apt-get update && apt-get upgrade -y \
-&& apt-get install wget curl -y \
+&& apt-get install --no-install-recommends -y ca-certificates wget curl \
 && mkdir /tmp/i2pd && cd /tmp/i2pd \
 && wget --tries=3 $(curl -s $I2PD_URL/$I2PD_RELEASE | \
    grep browser_download_url | \
