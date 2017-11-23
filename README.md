@@ -13,26 +13,16 @@ More info - https://i2pd.readthedocs.io/en/latest/
 
 ### Installing
 
-Two ways to start:
-
-**FIRST:** run with default args(!):
+Create any directory (like /host/dir/i2pd), put the "i2pd.conf" and "tunnels.conf" files there, edit them and connect this directory to the container directory "/var/lib/i2pd":
 ```
 docker pull ksey/i2pd
-docker run --name i2pd -d -p 7070:7070 -p 4444:4444 -p 4447:4447 ksey/i2pd
+docker run --name i2pd -d -p 7070:7070 -p 4444:4444 -p 4447:4447 -p 7656:7656 -v /host/dir/i2pd:/var/lib/i2pd ksey/i2pd
 ```
-
-*(!)Default args:*
+*Default PARAMS:*
 ```
---service --bandwidth=P --share=50 --limits.transittunnels=256 --upnp.enabled=true --http.enabled=true --http.address=0.0.0.0 --httpproxy.enabled=true --httpproxy.address=0.0.0.0 --socksproxy.enabled=true --socksproxy.address=0.0.0.0 --sam.enabled=true --sam.address=0.0.0.0 --bob.enabled=true --bob.address=0.0.0.0
+--service --bandwidth P --share 50 --limits.transittunnels 256 --upnp.enabled true --http.address 0.0.0.0 --httpproxy.address 0.0.0.0 --socksproxy.address 0.0.0.0 --sam.enabled true --sam.address 0.0.0.0
 ```
-
 More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
-
-**SECOND:** create any directory, put the "i2pd.conf" and "tunnels.conf" files there, edit them and connect this directory to the container directory "/etc/i2pd":
-```
-docker pull ksey/i2pd
-docker run --name i2pd -d -p 7070:7070 -p 4444:4444 -p 4447:4447 -v /host/dir/i2pd:/etc/i2pd ksey/i2pd
-```
 
 * i2pd.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/i2pd.conf 
 * tunnels.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/tunnels.conf
