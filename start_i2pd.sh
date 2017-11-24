@@ -16,4 +16,8 @@ if [ ! -e /var/lib/i2pd/tunnels.conf ]; then
   cp /etc/i2pd/tunnels.conf /var/lib/i2pd/tunnels.conf
 fi
 
-i2pd --service $PARAMS
+if [ ! -v PARAMS ] || [ -z "$PARAMS" ] || [ "$PARAMS" == "NONE" ] ; then
+  i2pd --service
+else
+  i2pd --service $PARAMS
+fi
