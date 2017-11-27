@@ -1,5 +1,5 @@
 # i2pd
-### Unofficial Docker Image for i2pd - https://hub.docker.com/r/ksey/i2pd/
+### Unofficial Docker Image for i2pd
 This is unofficial dockerized precompiled i2pd within a debian:stable-slim image (~ 65 Mb).
 
 i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client. i2p (Invisible Internet Protocol) is a universal anonymous network layer. All communications over I2P are anonymous and end-to-end encrypted, participants don't reveal their real IP addresses.
@@ -29,7 +29,3 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 * i2pd.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/i2pd.conf 
 * tunnels.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/tunnels.conf
-
-
-
-### Unofficial docker image for the XD - I2P BitTorrent Client - https://hub.docker.com/r/ksey/xd/
