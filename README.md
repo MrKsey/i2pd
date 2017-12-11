@@ -30,3 +30,15 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 * i2pd.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/i2pd.conf 
 * tunnels.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/tunnels.conf
 ### PurpleI2P/i2pd last release:
+2017-12-04 18:59:12: [PurpleI2P/i2pd, RELEASE] 2.17.0:
+
+1. Reseed through HTTP and SOCKS proxy
+2. transient keys for tunnels
+3. Correct publication of ECIES destinations
+4. i2p.streaming.initialAckDelay parameter
+5. Change log level through web console
+6. Show status of client services through web console
+7. Disable RSA signatures completely
+8. Fixed web console layout and shutdown for Windows
+9. CRYPTO_TYPE for SAM destination
+10. Signature and crypto type for newkeys BOB command
