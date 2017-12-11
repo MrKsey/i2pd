@@ -42,3 +42,4 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 8. Fixed web console layout and shutdown for Windows
 9. CRYPTO_TYPE for SAM destination
 10. Signature and crypto type for newkeys BOB command
+# #
