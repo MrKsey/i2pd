@@ -45,3 +45,14 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 # #
 ### PurpleI2P/i2pd last release:
+2018-01-30 16:18:34: [PurpleI2P/i2pd, RELEASE] 2.18.0:
+
+1. Graceful shutdown as soon as no more transit tunnels
+2. Show tunnel nicknames for I2CP destination in WebUI
+3. Re-create HTTP and SOCKS proxy and shared local destination by tunnel reload
+4. Fixed issues and timing for addressbook requests
+5. Return correct code if pid file can't be created
+6. Fixed build errors with boost 1.66
+7. Use transient local destination by default if not specified
+8. Check LeaseSet's signature before update
+9. Fixed few race conditions for SAM
