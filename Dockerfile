@@ -20,7 +20,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 && wget --tries=3 $(curl -s $I2PD_URL/$I2PD_RELEASE | \
    grep browser_download_url | \
    egrep -o 'http.+\.\w+' | \
-   grep -m 1 -i "$(if [ "$DEBIAN_CODENAME" != "*" ]; then echo $DEBIAN_CODENAME; else cat /etc/*-release | grep VERSION= | egrep -o '\(.+\)' | tr -d "()"; fi)" | \
+   grep -m 1 -i "$(if [ "$DEBIAN_CODENAME" != "*" ]; then echo $DEBIAN_CODENAME; else cat /etc/*-release | grep UBUNTU_CODENAME= | tr -d "UBUNTU_CODENAME="; fi)" | \
    grep -i "$(dpkg --print-architecture)") \
 && apt-get install --no-install-recommends -f -y ./*.deb \
 && apt-get purge -y -q --auto-remove ca-certificates wget curl \
