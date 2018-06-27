@@ -60,3 +60,4 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 12.  Multiple changes for QT GUI
 13. Initial implementation of NTCP2
 14. Added I2PControl method "ClientServicesInfo"
+# #
