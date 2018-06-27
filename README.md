@@ -62,3 +62,19 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 14. Added I2PControl method "ClientServicesInfo"
 # #
 ### PurpleI2P/i2pd last release:
+2018-06-26 17:56:24: [PurpleI2P/i2pd, RELEASE] 2.19.0:
+
+1.  ECIES support for RouterInfo
+2.  HTTP outproxy authentication
+3.  AVX/AESNI runtime detection
+4.  Android build using gradle
+5.  Implementation of I2CP reconfigure
+6.  EdDSA for RouterInfo by default
+7. Datagrams to websocks
+8. Fixed tunnels reload
+9. Fixed headers in webconsole
+10. Correct SAM session name
+11. Updated docker
+12.  Multiple changes for QT GUI
+13. Initial implementation of NTCP2
+14. Added I2PControl method "ClientServicesInfo"
