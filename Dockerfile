@@ -1,12 +1,14 @@
 #
 # This is unofficial dockerized precompiled i2pd within a debian:stable-slim image (~ 65 Mb).
 #
-FROM ubuntu:latest
+
+# FROM ubuntu:latest
+FROM debian:stable-slim
 MAINTAINER Bob <kcey@mail.ru>
 
 ENV I2PD_URL=https://api.github.com/repos/PurpleI2P/i2pd/releases
 ENV I2PD_RELEASE="latest"
-ENV DEBIAN_CODENAME="*"
+ENV LINUX_CODENAME="*"
 
 ENV PARAMS="--bandwidth P --share 50 --limits.transittunnels 256 --upnp.enabled true --http.address 0.0.0.0 --httpproxy.address 0.0.0.0 --socksproxy.address 0.0.0.0 --sam.enabled true --sam.address 0.0.0.0"
 
@@ -20,8 +22,8 @@ RUN export DEBIAN_FRONTEND=noninteractive \
 && wget --tries=3 $(curl -s $I2PD_URL/$I2PD_RELEASE | \
    grep browser_download_url | \
    egrep -o 'http.+\.\w+' | \
-   grep -m 1 -i "$(if [ "$DEBIAN_CODENAME" != "*" ]; then echo $DEBIAN_CODENAME; else cat /etc/*-release | grep UBUNTU_CODENAME= | tr -d "UBUNTU_CODENAME="; fi)" | \
-   grep -i "$(dpkg --print-architecture)") \
+   grep -i "$(dpkg --print-architecture)" | \
+   grep -m 1 -i "$(if [ "$LINUX_CODENAME" != "*" ]; then echo $LINUX_CODENAME; else cat /etc/*-release | grep VERSION= | egrep -o '\(.+\)' | tr -d "()" | sed -r 's/[ ]+/\\|/g'; fi)") \
 && apt-get install --no-install-recommends -f -y ./*.deb \
 && apt-get purge -y -q --auto-remove ca-certificates wget curl \
 && apt-get clean \
