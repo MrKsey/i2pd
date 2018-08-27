@@ -66,7 +66,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-### PurpleI2P/i2pd last release:
+
 2018-08-23 15:18:00: [PurpleI2P/i2pd, RELEASE] 2.20.0:
 
 1. Full implementation of NTCP2
