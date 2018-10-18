@@ -44,3 +44,12 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 7. Show total number of destination's outgoing tags in the web console
 # #
 ### PurpleI2P/i2pd last release:
+2018-10-04 15:22:30: [PurpleI2P/i2pd, RELEASE] 2.21.0:
+
+1. Use EdDSA, x25519 and SipHash from openssl 1.1.1 if available
+2. NTCP2 ipv6 incoming connections
+3. Bandwidth classes 'P' and 'X' without 'O'
+4. Support android api > 26
+5. Update own RouterInfo if no SSU
+6. Fixed NTCP address disappears if NTCP2 enabled
+7. Show total number of destination's outgoing tags in the web console
