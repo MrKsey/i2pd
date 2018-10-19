@@ -4,6 +4,8 @@ This is unofficial dockerized precompiled i2pd within a debian:stable-slim image
 
 i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client. i2p (Invisible Internet Protocol) is a universal anonymous network layer. All communications over I2P are anonymous and end-to-end encrypted, participants don't reveal their real IP addresses.
 
+![i2pd](https://raw.githubusercontent.com/MrKsey/i2pd/master/i2pd.PNG)
+
 More info:
 - https://i2pd.readthedocs.io/en/latest/
 - https://github.com/PurpleI2P/i2pd
