@@ -33,7 +33,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 * tunnels.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/tunnels.conf
 
 
-# #
+
 ### PurpleI2P/i2pd last release:
 2018-10-04 15:22:30: [PurpleI2P/i2pd, RELEASE] 2.21.0:
 
