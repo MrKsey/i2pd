@@ -34,7 +34,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-### PurpleI2P/i2pd last release:
+
 2018-10-04 15:22:30: [PurpleI2P/i2pd, RELEASE] 2.21.0:
 
 1. Use EdDSA, x25519 and SipHash from openssl 1.1.1 if available
