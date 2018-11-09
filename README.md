@@ -46,7 +46,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-2018-10-22 16:27:41: [PurpleI2P/i2pd, RELEASE] 2.21.1:
 
-1. Handle I2NP messages longer than 32K
-2. cost=13 for unpublished NTCP2 address
+
+
+
