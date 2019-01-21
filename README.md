@@ -52,9 +52,9 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-2018-11-09 02:28:27: [PurpleI2P/i2pd, RELEASE] 2.22.0:
 
-1. Fetch own RouterInfo upon SessionRequest for NTCP2
-2. Fixed NTCP2 termination send
-3. Multiple tunnel config files from tunnels.d folder
-4. Faster XOR between AES blocks for non AVX capable CPUs
+
+
+
+
+
