@@ -51,7 +51,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-### PurpleI2P/i2pd last release:
+
 2018-11-09 02:28:27: [PurpleI2P/i2pd, RELEASE] 2.22.0:
 
 1. Fetch own RouterInfo upon SessionRequest for NTCP2
