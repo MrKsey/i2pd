@@ -60,3 +60,13 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 # #
 ### PurpleI2P/i2pd last release:
+2019-01-21 16:04:47: [PurpleI2P/i2pd, RELEASE] 2.23.0:
+
+1. Standard LeaseSet2 support
+2. Multiple changes for Android: Russian translation, permissions request, cancel graceful shutdown, addressbook in assets
+3. Eliminated extra copy of NTCP2 sent messages for better preformance 
+4.  Ability to adjust timestamps through the NTP
+5.  Ability to disable peer profile persist
+6.  Fixed incorrect LeaseSet published content verification
+7. Removed name resolvers from transports
+8. Updated reseed ceritifcates
