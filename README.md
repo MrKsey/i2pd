@@ -71,3 +71,4 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 7. Removed name resolvers from transports
 8. Updated reseed ceritifcates
 # #
+### PurpleI2P/i2pd last release:
