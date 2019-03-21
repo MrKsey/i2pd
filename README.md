@@ -32,7 +32,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 * i2pd.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/i2pd.conf 
 * tunnels.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/tunnels.conf
 
-### PurpleI2P/i2pd last release:
+
 2019-01-21 16:04:47: [PurpleI2P/i2pd, RELEASE] 2.23.0:
 
 1. Standard LeaseSet2 support
