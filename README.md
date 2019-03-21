@@ -45,3 +45,16 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 # #
 ### PurpleI2P/i2pd last release:
+2019-03-21 15:44:48: [PurpleI2P/i2pd, RELEASE] 2.24.0:
+
+1. Support of transient keys for LeaseSet2 and encrypted LeaseSet2
+2. Recognize new signature type 11 (RedDSA)
+3. Support websocket connections over HTTP proxy
+4. Ability to disable full addressbook persist
+5. Multiple SAM fixes
+6. Ability to disable full addressbook persist
+7. Fixed few issues with RouterInfo addresses and floodfills
+8. Fixed  race condition for publishing
+9. Fixed stuck addressbook update
+10. Don't load peer profiles if non-persistant
+11. Set REUSE_ADDR flag for ipv6 acceptors
