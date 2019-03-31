@@ -59,3 +59,4 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 10. Don't load peer profiles if non-persistant
 11. Set REUSE_ADDR flag for ipv6 acceptors
 # #
+### PurpleI2P/i2pd last release:
