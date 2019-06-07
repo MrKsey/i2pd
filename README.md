@@ -74,15 +74,15 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-2019-05-09 15:09:15: [PurpleI2P/i2pd, RELEASE] 2.25.0:
 
-1. Create, publish and handle encrypted LeaseSet2
-2. Support of b33 addresses
-3. RedDSA key blinding
-4. Support .b32.i2p addresses in jump links
-5. addresshelper support is configurable per tunnel
-6. Allow HTTP headers without value
-7. Set data directory from external storage path for Android
-8. Fixed SSU incoming packets routing bug
-9. Correct deletion of expired encrypted LeaseSet2 on floodfills
-10. Added ntcp2.addressv6 parameter
+
+
+
+
+
+
+
+
+
+
+
