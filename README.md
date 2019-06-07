@@ -72,7 +72,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-# #
+
 ### PurpleI2P/i2pd last release:
 2019-05-09 15:09:15: [PurpleI2P/i2pd, RELEASE] 2.25.0:
 
