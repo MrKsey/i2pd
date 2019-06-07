@@ -88,3 +88,15 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 # #
 ### PurpleI2P/i2pd last release:
+2019-06-07 14:35:23: [PurpleI2P/i2pd, RELEASE] 2.26.0:
+
+1. Disable NTCP and publish NTCP2 by default
+2. Detect ipv6 address from SSU
+3. HTTP method "PROPFIND"
+4. HTTP_REFERER stripping in httpproxy
+5. Correct response to BOB's "list" command
+6. NTCP2 publishing depends on network status
+7. Check and handle incorrect BOB input
+8. Ignore introducers for NTCP or NTCP2 addresses
+9. RouterInfo check from NTCP2
+10. Update reseeds list
