@@ -33,7 +33,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 * tunnels.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/tunnels.conf
 
 
-### PurpleI2P/i2pd last release:
+
 2019-06-07 14:35:23: [PurpleI2P/i2pd, RELEASE] 2.26.0:
 
 1. Disable NTCP and publish NTCP2 by default
