@@ -47,3 +47,4 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 9. RouterInfo check from NTCP2
 10. Update reseeds list
 # #
+### PurpleI2P/i2pd last release:
