@@ -48,3 +48,10 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 10. Update reseeds list
 # #
 ### PurpleI2P/i2pd last release:
+2019-07-03 16:51:12: [PurpleI2P/i2pd, RELEASE] 2.27.0:
+
+1. Support of PSK and DH authentication for encrypted LeaseSet2
+2. Uptime is based on monotonic timer now
+3. Correct BOB status command response
+4. Correct NTCP2 port if NTCP is disabled
+5. Flood encrypted LeaseSet2 with store hash
