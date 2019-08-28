@@ -55,3 +55,16 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 8. Correct handling of addressbook lines with signatures
 # #
 ### PurpleI2P/i2pd last release:
+2019-08-27 15:48:03: [PurpleI2P/i2pd, RELEASE] 2.28.0:
+
+1. RAW datagrams in SAM
+2. Publishing encrypted LeaseSet2 with DH or PSH authentication
+3. Ability to disable battery optimization for Android
+4. Transport Network ID Check
+5. Set and handle published encrypted flag for LeaseSet2
+6. Fixed ReceiveID occasional change in the same stream
+7. Handle "\r\n" command terminator in SAM 
+8. Correct handling of addressbook lines with signatures
+
+
+Note: Ubuntu 18.10 (cosmic) is EOL, no packages will be provided.
