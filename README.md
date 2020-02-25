@@ -33,21 +33,21 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 * tunnels.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/tunnels.conf
 
 
-2019-10-21 16:10:53: [PurpleI2P/i2pd, RELEASE] 2.29.0:
-
-1. Send and handle client auth flag for b33 address
-2. Fixed SAM crash if invalid lookup address
-3. Fixed possible crash when UPnP enabled on shutdown
-4. Fixed failure to start on Windows XP
-5. Handle errors for NTCP2 SessionConfrimed send
-6. Remove incoming  NTCP2 session from pending list when established
 
 
-2019-10-21 16:10:53: [PurpleI2P/i2pd, RELEASE] 2.29.0:
 
-1. Send and handle client auth flag for b33 address
-2. Fixed SAM crash if invalid lookup address
-3. Fixed possible crash when UPnP enabled on shutdown
-4. Fixed failure to start on Windows XP
-5. Handle errors for NTCP2 SessionConfrimed send
-6. Remove incoming  NTCP2 session from pending list when established
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
