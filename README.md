@@ -41,7 +41,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 4. Fixed failure to start on Windows XP
 5. Handle errors for NTCP2 SessionConfrimed send
 6. Remove incoming  NTCP2 session from pending list when established
-# #
+
 ### PurpleI2P/i2pd last release:
 2019-10-21 16:10:53: [PurpleI2P/i2pd, RELEASE] 2.29.0:
 
