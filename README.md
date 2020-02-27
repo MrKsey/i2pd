@@ -32,32 +32,3 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 * i2pd.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/i2pd.conf 
 * tunnels.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/tunnels.conf
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# #
-### PurpleI2P/i2pd last release:
-2020-02-25 17:16:34: [PurpleI2P/i2pd, RELEASE] 2.30.0:
-
-1. Single threaded SAM
-2. Experimental support of ECIES-X25519-AEAD-Ratchet crypto type
-3. Works on Android 10
-4. Reported minimal MTU size is 1280 for ipv6
-5. Updated reseeds list
-6. Correct response to RouterInfo in I2PControl
