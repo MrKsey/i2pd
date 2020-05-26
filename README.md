@@ -34,25 +34,25 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-2020-04-10 17:50:45: [PurpleI2P/i2pd, RELEASE] 2.31.0:
 
-### Notice to packages maintainers
-Websockets and lua has been dropped. Please build your packages without it.
 
----
 
-1. NTCP2 through HTTP proxy
-2. Publish LeaseSet2 for I2CP destinations
-3. Dropped Websockets and Lua support
-4. Fixed NTCP2 socket descriptors leak
-5. Fixed race condition with router's identity in transport sessions
-6. Correct termination of not terminated streams 
-7. Handle ECIESFlag in DatabaseLookup at floodfill
-8. Show status page on main activity for android
-9. Reopen SSU socket on exception
-10. Send DeliveryStatusMsg for LeaseSet for ECIES-X25519-AEAD-Ratchet
-11. Keep sending new session reply until established for ECIES-X25519-AEAD-Ratchet
-12. Updated SSU log messages
-13. Security hardening headers in web console
-14. Various web console changes
-15. Various QT changes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
