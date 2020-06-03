@@ -57,7 +57,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-### PurpleI2P/i2pd last release:
+
 2020-05-25 14:02:57: [PurpleI2P/i2pd, RELEASE] 2.32.0:
 
 1. Complete implementation of ECIES-X25519-AEAD-Ratchet protocol
