@@ -58,20 +58,20 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-2020-05-25 14:02:57: [PurpleI2P/i2pd, RELEASE] 2.32.0:
 
-1. Complete implementation of ECIES-X25519-AEAD-Ratchet protocol
-2. Multiple encryption types for local destinations
-3. NTCP2 through SOCKS proxy
-4. New gzip compression logic
-5. Correct timestamp check for LeaseSet2
-6. Logrotate config for rpm package
-7. Update webconsole functional
-8. Updated reseeds list
-9. Fixed  encrypted LeaseSet without authentication
-10. Throw error message if any port to bind is occupied for Windows
-11. gzip parameter for UDP tunnels
-12. Stop as soon as no more transit tunnels during graceful shutdown for Android
-13. Increased max transit tunnels limit
-14. Dropped windows support in cmake
-15. Change SOCKS proxy connection response for clients without socks5h support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
