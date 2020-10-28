@@ -84,7 +84,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-### PurpleI2P/i2pd last release:
+
 2020-08-24 17:00:31: [PurpleI2P/i2pd, RELEASE] 2.33.0:
 
 1. UDP tunnels through ECIES-X25519-AEAD-Ratchet
