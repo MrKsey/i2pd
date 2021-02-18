@@ -81,3 +81,4 @@ Disabling AESNI flag is no more required, required checks automaticaly will be d
 
 Please update your build scripts according to changes.
 # #
+### PurpleI2P/i2pd last release:
