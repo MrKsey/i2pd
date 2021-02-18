@@ -82,3 +82,28 @@ Disabling AESNI flag is no more required, required checks automaticaly will be d
 Please update your build scripts according to changes.
 # #
 ### PurpleI2P/i2pd last release:
+2021-02-15 14:19:08: [PurpleI2P/i2pd, RELEASE] 2.36.0:
+
+1. ECIES-x25519 (crypto type 4) for new routers
+2. reg.i2p for default addressbook instead inr.i2p
+3. Yggdrasil transports and reseeds
+4. Encrypted lookup and publications to ECIES-x25519 floodfiils
+5. Dump addressbook in hosts.txt format
+6. Try to connect to all compatible addresses from peer's RouterInfo
+7. Threads naming
+8. ECIES-X25519-AEAD-Ratchet for shared local destination
+9. Fixed handling chunked HTTP response in addressbook
+10. Calculate missing ECIES-X25519-AEAD-Ratchet tags for multiple streams with the same destination
+11. Refresh on swipe in Android webconsole
+12. Request RouterInfo through exploratory tunnels if direct connection to fllodfill is not possible
+13. Select reachable router of inbound tunnel gateway
+14. Reseed if no compatible routers in netdb 
+15. Check if public x25519 key is valid 
+16. Replace LeaseSet completely if store type changes 
+17. Limit tunnel length to 8 hops and quantity to 16
+18. Decrypt follow-on ECIES-X25519-AEAD-Ratchet NSR messages
+19. Fixed SSU crash on termination
+20. Correct NAME for NAMING REPLY in SAM
+21. Don't create notification when Windows taskbar restarted 
+22. Viewport and styles on error in HTTP proxy
+23. Cumulative SSU ACK bitfields
