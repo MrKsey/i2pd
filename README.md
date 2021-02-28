@@ -108,3 +108,4 @@ Please update your build scripts according to changes.
 22. Viewport and styles on error in HTTP proxy
 23. Cumulative SSU ACK bitfields
 # #
+### PurpleI2P/i2pd last release:
