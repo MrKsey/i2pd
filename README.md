@@ -33,7 +33,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 * tunnels.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/tunnels.conf
 
 
-### PurpleI2P/i2pd last release:
+
 2021-02-15 14:19:08: [PurpleI2P/i2pd, RELEASE] 2.36.0:
 
 1. ECIES-x25519 (crypto type 4) for new routers
