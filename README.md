@@ -61,3 +61,25 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 # #
 ### PurpleI2P/i2pd last release:
+2021-03-15 14:39:00: [PurpleI2P/i2pd, RELEASE] 2.37.0:
+
+1. Address registration line for reg.i2p and stats.i2p through the web console
+2. "4" and "6" caps for addresses without published IP address
+3. Fixed incoming SSU session termination after 5 seconds
+4. Floodfills with "U" cap are not ignored anymore
+5. Show actual IP addresses for proxy connections
+6. Yggdrasil for Android
+7. address4 and address6 parameters to bind outgoing connections to 
+8. lookuplocal BOB extended command
+9. Mesh and Proxy network statuses
+10. Symmetric NAT network status error
+11. NTCP2 and reseed HTTP proxy support authorization now
+12. Fixed race condition between tunnel build and floodfill requests decryption for ECIES routers
+13. Correct handling of  numeric bandwidth limitation
+14. Popup notification windows when unable to parse config for Windows
+15. Rekey of low-bandwidth routers to ECIES
+16. Bind server tunnel connection to specified address
+17. Logging optimization
+18. Outbound tunnel endpoint must be ipv4 compatible
+19. Removed Windows service
+20. Allow incoming Yggdrasil connection if NTCP2 is  connected through a proxy
