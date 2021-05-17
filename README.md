@@ -34,7 +34,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-### PurpleI2P/i2pd last release:
+
 2021-03-15 14:39:00: [PurpleI2P/i2pd, RELEASE] 2.37.0:
 
 1. Address registration line for reg.i2p and stats.i2p through the web console
