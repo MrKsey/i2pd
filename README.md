@@ -59,3 +59,15 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 # #
 ### PurpleI2P/i2pd last release:
+2021-05-17 13:27:17: [PurpleI2P/i2pd, RELEASE] 2.38.0:
+
+1. ipv6 introducers and peer test
+2. Support .b32.i2p addresses and hostnames for SAM STREAM CREATE
+3. Blinding of EdDSA signing keys
+4. Publish iexp param for introducers
+5. Send updated LeaseSet for incoming  ECIES-x25519 session 
+6. Bind ipv6 or yggdrasil NTCP2 acceptor to specified address 
+7. Don't publish LeaseSet without inbound tunnels
+8. Rekey of all routers but floodfills to ECIES
+9. Recognize ipv4 and ipv6 SSU addresses without host
+10. Show ipv6 network status and router version on the webconsole
