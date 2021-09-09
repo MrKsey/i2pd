@@ -94,3 +94,22 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 17.  Better distribution for random tunnel's peer selection
 # #
 ### PurpleI2P/i2pd last release:
+2021-08-23 14:27:50: [PurpleI2P/i2pd, RELEASE] 2.39.0:
+
+1. Short tunnel build messages
+2. Localization to Russian, Ukrainian, Turkmen, Uzbek and Afrikaans
+3. Custom CSS styles for webconsole
+4. Avoid slow tunnels with more than 250 ms per hop
+5. Process DELAY_REQUESTED streaming option
+6. "certsdir" options for certificates location
+7. Yggdrasil reseed for v0.4, added two more
+8. Rekey of all routers to ECIES
+9. Encryption type 0,4 by default for server tunnels
+10.  Fixed zero-hop tunnels
+11.  Set minimal version for floodfill to 0.9.38
+12. Fixed crash upon SAM session termination
+13.  NTP sync through ipv6
+14.  Allow ipv6 addresses for UDP server tunnels
+15.  Consistent path for explicit peers
+16.  Always create new tunnel from exploratory pool
+17.  Better distribution for random tunnel's peer selection
