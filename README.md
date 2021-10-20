@@ -53,3 +53,4 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 16.  Always create new tunnel from exploratory pool
 17.  Better distribution for random tunnel's peer selection
 # #
+### PurpleI2P/i2pd last release:
