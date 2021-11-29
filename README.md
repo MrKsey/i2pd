@@ -75,3 +75,19 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 # #
 ### PurpleI2P/i2pd last release:
+2021-11-28 02:42:21: [PurpleI2P/i2pd, RELEASE] 2.40.0:
+
+1. "Keep alive" parameter for client tunnels
+2. Fixed tunnels reload (kill -s HUP)
+3. Support openssl 3.0.0
+4. Build tunnels through ECIES routers only
+5. Reduced memory usage
+6. Localization to Armenian
+7. Added Windows menu item for opening datadir
+8. Reseed if too few floodfills
+9. Don't publish old and replacing tunnel in LeaseSet
+10. Webconsole light/dark theme depending on system settings (via CSS)
+11. Updated reseed servers list
+12. Fixed build for Build on GNU/Hurd
+13. Set gzip compression to false by default
+14. i18n code called from ClientContext (libi2pd_client)
