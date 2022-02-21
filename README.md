@@ -52,3 +52,19 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 # #
 ### PurpleI2P/i2pd last release:
+2022-02-20 14:06:10: [PurpleI2P/i2pd, RELEASE] 2.41.0:
+
+1. Clock syncronization through SSU
+2. Added localization to German
+3. Select compatible outbound tunnel for I2CP messages
+4. Use TCP/IP sockets for I2CP on Android instead local sockets
+5. Restart webconsole's acceptor in case of exception
+6. Try another floodfill for publishing if no compatible tunnels found
+7. Reduce memory usage for RouterInfo structures
+8. Avoid duplicated addresses in RouterInfo. Check presence of netId and version
+9. Update reseed servers list/cerificates
+10. Changed webconsole's dark style colors
+11. Fixed attempt to use Yggdrasil on start on Android
+12. Fixed severe packets drop in SSU
+13. Fixed crash on tunnel tests
+14. Fixed loading addressbook subscriptions from config
