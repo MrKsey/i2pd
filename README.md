@@ -68,3 +68,4 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 12. Fixed severe packets drop in SSU
 13. Fixed crash on tunnel tests
 14. Fixed loading addressbook subscriptions from config
+# #
