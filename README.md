@@ -69,3 +69,4 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 13. Fixed crash on tunnel tests
 14. Fixed loading addressbook subscriptions from config
 # #
+### PurpleI2P/i2pd last release:
