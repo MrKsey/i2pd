@@ -54,3 +54,4 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 # #
+### PurpleI2P/i2pd last release:
