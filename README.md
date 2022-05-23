@@ -55,3 +55,17 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 # #
 ### PurpleI2P/i2pd last release:
+2022-05-22 14:12:05: [PurpleI2P/i2pd, RELEASE] 2.42.0:
+
+1. Preliminary SSU2 implementation
+2. Tunnel length variance
+3. Localization to French
+4. Fixed encrypted LeaseSet for EdDSA signature
+5. UDP tunnels reload
+6. Fixed incorrect processing of `i2cp.dontPublishLeaseSet` param
+7. Updated reseeds list
+8. Win32 service
+9. Daily cleanup of obsolete peer profiles
+10. Fixed race conditions for short tunnel build message and RouterInfo buffer allocation
+11. Don't show version in title of web console
+12. Fixed tunnel build if clock was out of sync
