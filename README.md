@@ -71,6 +71,6 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-2022-05-24 23:02:16: [PurpleI2P/i2pd, RELEASE] 2.42.1:
 
-1. Fixed incorrect jump link in HTTP Proxy
+
+
