@@ -75,7 +75,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-### PurpleI2P/i2pd last release:
+
 2022-08-21 20:19:09: [PurpleI2P/i2pd, RELEASE] 2.43.0:
 
 1. Complete SSU2 implementation
