@@ -98,20 +98,20 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-2022-11-20 19:20:10: [PurpleI2P/i2pd, RELEASE] 2.44.0:
 
-1. SSU2 is enbaled and SSU is disabled by default
-2. SSL connection for server I2P tunnels
-3. Localization to Italian and Spanish
-4. Fixed endless processing of long HTTP headers for HTTP proxy and HTTP server tunnel
-5. SSU2 through SOCKS5 UDP proxy
-6. Reload tunnels through web console
-7. Random selection between NTCP2 and SSU2 for transport
-8. Configurable ssu2.mtu4 and ssu2.mtu6
-9.  Fixed SSU2 with port=1 in RouterInfo
-10.  Fixed crash at startup if addressbook is disabled
-11. Added notbob.i2p to jump services
-12. Remove DoNotTrack flag from HTTP Request header
-13. NTCP2 ipv6 connection through SOCKS5 proxy
-14. Separate network status and error
-15. SSU2 send and verify path challenge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
