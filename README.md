@@ -116,7 +116,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-### PurpleI2P/i2pd last release:
+
 2023-01-03 23:25:30: [PurpleI2P/i2pd, RELEASE] 2.45.0:
 
 1. Removed SSU transport
