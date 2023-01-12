@@ -117,27 +117,27 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-2023-01-03 23:25:30: [PurpleI2P/i2pd, RELEASE] 2.45.0:
 
-1. Removed SSU transport
-2.  Fixed file descriptors leak
-3. 1 and 15 seconds bandwidth calculation for i2pcontrol
-4. Compressible padding for I2P addresses
-5. Don't accept incoming session from invalid/reserved addresses for NTCP2 and SSU2
-6. Drop RouterInfos and LeaseSets with timestamp from future
-7. Increased default max transit tunnels number from 2500 to 5000 or 10000 for floodfill
-8. Fixed ::1 address in RouterInfo
-9. SSU2 network error handling (especially for Windows)
-10. Localization to Czech
-11. NTCP2 and SSU2 timestamps are rounded to seconds
-12. Don't send SSU2 termination again if termination received block received
-13. Fixed random crash on AddressBook update
-14. Test for Symmetric NAT with peer test msgs 6 and 7
-15.  Fixed spamming to log if no descriptors
-16. Don't select overloaded peer for next tunnel
-17. Limit simultaneous tunnel build requests by 4 per pool
-18. Fixed RTT self-reduction for long-live streams
-19. Fixed crash if incorrect LeaseSet size
-20. "No Descriptors" router error state
-21. Remove "X-Requested-With" in HTTP Proxy for non-AJAX requests
-22.  Fixed SSU2 network error handling (especially for Windows)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
