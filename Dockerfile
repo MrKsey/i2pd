@@ -2,8 +2,8 @@
 # This is unofficial dockerized precompiled i2pd within a debian:stable-slim image (~ 65 Mb).
 #
 
-# FROM ubuntu:latest
-FROM debian:stable-slim
+FROM ubuntu:latest
+# FROM debian:stable-slim
 MAINTAINER Bob <kcey@mail.ru>
 
 ENV I2PD_URL=https://api.github.com/repos/PurpleI2P/i2pd/releases
