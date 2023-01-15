@@ -1,6 +1,6 @@
 # i2pd
 ### Unofficial Docker Image for i2pd
-This is unofficial dockerized precompiled i2pd within a debian:stable-slim image.
+This is unofficial dockerized precompiled i2pd image.
 
 i2pd (I2P Daemon) is a full-featured C++ implementation of I2P client. i2p (Invisible Internet Protocol) is a universal anonymous network layer. All communications over I2P are anonymous and end-to-end encrypted, participants don't reveal their real IP addresses.
 
@@ -17,10 +17,9 @@ More info:
 
 ### Installing
 
-Create any directory (like /host/i2pd), put the "i2pd.conf" and "tunnels.conf" files there, edit them and connect this directory to the container directory "/var/lib/i2pd":
+Create any directory (like /docker/i2pd), put the "i2pd.conf" and "tunnels.conf" files there, edit them and connect this directory to the container directory "/var/lib/i2pd":
 ```
-docker pull ksey/i2pd
-docker run --name i2pd -d -p 7070:7070 -p 4444:4444 -p 4447:4447 -p 7656:7656 -v /host/i2pd:/var/lib/i2pd ksey/i2pd
+docker run --name i2pd --restart=unless-stopped -d -p 7070:7070 -p 4444:4444 -p 4447:4447 -p 7656:7656 -v /docker/i2pd:/var/lib/i2pd ksey/i2pd
 ```
 
 *Default PARAMS:*
