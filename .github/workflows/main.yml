@@ -40,3 +40,4 @@ jobs:
       
     - name: Build the Docker image
       run: docker buildx build . --push --file Dockerfile --tag $DOCKER_USERNAME/$REPO_NAME --platform linux/amd64
+      
