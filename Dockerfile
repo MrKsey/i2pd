@@ -4,7 +4,6 @@
 
 FROM ubuntu:latest
 # FROM debian:stable-slim
-MAINTAINER Bob <kcey@mail.ru>
 
 ENV I2PD_URL=https://api.github.com/repos/PurpleI2P/i2pd/releases
 ENV I2PD_RELEASE="latest"
