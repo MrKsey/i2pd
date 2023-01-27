@@ -32,16 +32,6 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 * tunnels.conf example - https://github.com/PurpleI2P/i2pd/blob/openssl/contrib/tunnels.conf
 
 
-
-
-2023-01-11 20:34:24: [PurpleI2P/i2pd, RELEASE] 2.45.1:
-
-1. Fixed UPnP crash if SSU2 or NTCP2 is disabled 
-2. Fixed crash on termination for some platforms
-3. Network status is always OK if peer test msg 5 received
-4. Added "Full Cone NAT" status error
-5. Drop duplicated I2NP messages in SSU2
-6. Set rejection code 30 if tunnel with id already exists
 # #
 ### PurpleI2P/i2pd last release:
 2023-01-11 20:34:24: [PurpleI2P/i2pd, RELEASE] 2.45.1:
