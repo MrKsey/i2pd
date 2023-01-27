@@ -42,3 +42,4 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 4. Added "Full Cone NAT" status error
 5. Drop duplicated I2NP messages in SSU2
 6. Set rejection code 30 if tunnel with id already exists
+# #
