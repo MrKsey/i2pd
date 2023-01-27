@@ -33,7 +33,7 @@ More info - https://i2pd.readthedocs.io/en/latest/user-guide/configuration/
 
 
 
-### PurpleI2P/i2pd last release:
+
 2023-01-11 20:34:24: [PurpleI2P/i2pd, RELEASE] 2.45.1:
 
 1. Fixed UPnP crash if SSU2 or NTCP2 is disabled 
